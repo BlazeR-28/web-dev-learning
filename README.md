@@ -1,51 +1,86 @@
-# 🚀 Web Dev Learning Journey
+# <p align="center">🚀 Web Dev Learning Journey</p>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react" alt="React" />
-  <img src="https://img.shields.io/badge/Vite-8-purple?style=for-the-badge&logo=vite" alt="Vite" />
-  <img src="https://img.shields.io/badge/Tailwind-4-38B2AC?style=for-the-badge&logo=tailwind-css" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License" />
+
+[![React Version](https://img.shields.io/badge/React-19.0-61DAFB?style=flat-square&logo=react)](https://react.dev/)
+[![Vite Version](https://img.shields.io/badge/Vite-8.0-646CFF?style=flat-square&logo=vite)](https://vitejs.dev/)
+[![Tailwind Version](https://img.shields.io/badge/Tailwind-4.0-38B2AC?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](./LICENSE)
+
+**Ein professionelles Lern-Ökosystem für moderne Webentwicklung.**
+
+[Voraussetzungen](#-voraussetzungen) • [Installation](#-installation) • [Projektstruktur](#-projektstruktur) • [Roadmap](#-roadmap)
+
+---
+
 </div>
 
-<br />
+## 📸 Preview
+<div align="center">
+  <img src="./src/assets/hero.png" alt="App Screenshot" width="800px" style="border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);" />
+  <p><em>Aktueller Stand: React + Tailwind v4 Dashboard</em></p>
+</div>
 
-Dies ist mein professionelles Lernprojekt, um die moderne Webentwicklung von Grund auf zu meistern. Hier entstehen meine ersten echten Web-Apps mit dem aktuellsten Tech-Stack der Branche.
+## ✨ Key Features
+- ⚡ **Next-Gen Tooling:** Nutzt Vite 8 für blitzschnelle Entwicklung.
+- 🎨 **Utility-First Styling:** Komplett mit Tailwind CSS v4 gestaltet.
+- 🧩 **Component Architecture:** Modularer Aufbau mit React 19.
+- 📐 **Design-First Workflow:** Enge Kopplung an Figma-Prototypen.
 
-## 🛠 Tech Stack (Cutting Edge)
-- **Framework:** [React 19+](https://react.dev/) – Die Basis für moderne User Interfaces.
-- **Build Tool:** [Vite 8+](https://vitejs.dev/) – Blitzschnelles Tooling für moderne Web-Apps.
-- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/) – Die Next-Gen Engine für Utility-First CSS.
-- **Design:** [Figma](https://figma.com/) – Wo jedes meiner Projekte als Design startet.
+## 🛠 Tech Stack
+| Tool | Funktion | Status |
+| :--- | :--- | :--- |
+| **React 19** | UI Library | 🟢 Aktiv |
+| **Vite 8** | Build Tool | 🟢 Aktiv |
+| **Tailwind v4** | CSS Framework | 🟢 Aktiv |
+| **Figma** | UI/UX Design | 🟡 Geplant |
+| **Git/GitHub** | Versionierung | 🟢 Aktiv |
 
 ## 📂 Projektstruktur
-- `src/` - Alle React-Komponenten, Hooks und Styles.
-- `public/` - Statische Assets wie Icons und Bilder.
-- `archive/` - Ein Blick zurück auf meine allerersten HTML/CSS-Schritte.
+```bash
+.
+├── archive/           # Frühere Meilensteine (HTML/CSS)
+├── public/            # Statische Assets (Icons, Fonts)
+├── src/
+│   ├── assets/        # Bilder & Grafiken
+│   ├── components/    # (Bald verfügbar) Wiederverwendbare UI-Elemente
+│   ├── styles/        # Globales CSS (Tailwind)
+│   ├── App.jsx        # Hauptanwendung
+│   └── main.jsx       # Einstiegspunkt
+└── README.md
+```
 
-## 🚀 Lokales Setup
-1.  **Repository clonen:**
-    ```bash
-    git clone https://github.com/BlazeR-28/web-dev-learning.git
-    ```
-2.  **Dependencies installieren:**
-    ```bash
-    npm install
-    ```
-3.  **Dev-Server starten:**
-    ```bash
-    npm run dev
-    ```
-    *Die App ist nun unter `http://localhost:5173` erreichbar.*
+## 🚀 Installation & Start
+### Voraussetzungen
+- [Node.js](https://nodejs.org/) (v20 oder höher)
+- [npm](https://www.npmjs.com/)
 
-## 📜 Verfügbare Skripte
-- `npm run dev` - Startet den Entwicklungsserver mit HMR.
-- `npm run build` - Erstellt das Production-Build im `dist/` Ordner.
-- `npm run lint` - Prüft den Code auf Fehler und Stilvorgaben.
+### Schritte
+1. **Repository clonen**
+   ```bash
+   git clone https://github.com/BlazeR-28/web-dev-learning.git
+   ```
+2. **Abhängigkeiten installieren**
+   ```bash
+   npm install
+   ```
+3. **Entwicklungsserver starten**
+   ```bash
+   npm run dev
+   ```
+
+## 🗺 Roadmap
+- [x] Initiales Setup mit React + Vite
+- [x] Tailwind CSS v4 Integration
+- [ ] Erstes Figma Design erstellen
+- [ ] Umsetzung der ersten React-Komponenten
+- [ ] Deployment (Vercel oder Netlify)
 
 ## 📄 Lizenz
-Dieses Projekt steht unter der **MIT-Lizenz**. Details findest du in der [LICENSE](./LICENSE) Datei.
+Dieses Projekt ist unter der MIT-Lizenz lizenziert. Weitere Informationen findest du in der [LICENSE](./LICENSE)-Datei.
 
 ---
 <p align="center">
-  Entwickelt mit ❤️ von <strong>BlazeR</strong> | 2026
+  Entwickelt mit ❤️ von <strong>BlazeR</strong><br />
+  <em>"Learning by doing is the professional way."</em>
 </p>
