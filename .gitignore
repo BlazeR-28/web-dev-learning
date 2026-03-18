@@ -1,0 +1,20 @@
+# .gitignore - Dateien, die nicht in Git gespeichert werden sollen
+
+# OS-spezifische Dateien
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editoren/IDEs
+.vscode/
+.idea/
+
+# Node (für später, falls wir NPM benutzen)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Temporäre Dateien
+.cache/
+dist/
+build/
