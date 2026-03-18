@@ -1,8 +1,8 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-/* Hier kannst du eigene Styles hinzufügen, falls nötig */
+/* In Tailwind v4 werden Standard-Styles wie bg-slate-50 direkt hier oder 
+   über Utility-Classes in React geregelt. */
+
 body {
   @apply bg-slate-50 text-slate-900 min-h-screen flex flex-col;
 }

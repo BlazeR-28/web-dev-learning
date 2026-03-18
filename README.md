@@ -1,33 +1,27 @@
 # 🚀 Web Dev Learning Journey
 
-Ein professionelles Lernprojekt zum Einstieg in die moderne Webentwicklung mit **Figma**, **React** und **Tailwind CSS**.
+Dieses Repository ist mein professioneller Einstieg in die moderne Webentwicklung. Es nutzt die aktuellsten Standards der Branche.
 
-## 🛠 Tech Stack
-- **Framework:** [React](https://react.dev/) (mit [Vite](https://vitejs.dev/))
-- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
-- **Design Tool:** [Figma](https://figma.com/)
-- **Version Control:** Git & GitHub
+## 🛠 Tech Stack (Cutting Edge)
+- **Framework:** [React 19+](https://react.dev/)
+- **Build Tool:** [Vite 8+](https://vitejs.dev/)
+- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/) (Next-Gen Engine)
+- **Design:** [Figma](https://figma.com/)
+- **Hosting/Git:** GitHub
 
 ## 📂 Projektstruktur
-- `src/` - Deine React-Komponenten und Styles.
-- `public/` - Statische Dateien (Bilder, Favicons).
-- `archive/` - Deine ersten Schritte mit reinem HTML/CSS (für die Geschichte).
+- `src/` - React Komponenten und Styles.
+- `public/` - Statische Dateien.
+- `archive/` - Frühe HTML/CSS-Experimente.
 
-## 🚀 Erste Schritte
-1.  **Abhängigkeiten installieren:**
-    ```bash
-    npm install
-    ```
-2.  **Entwicklungsserver starten:**
-    ```bash
-    npm run dev
-    ```
-3.  **Seite im Browser öffnen:** Meistens unter `http://localhost:5173`.
+## 🚀 Starten
+Um das Projekt lokal zu starten:
+1.  **Clone:** `git clone https://github.com/BlazeR-28/web-dev-learning.git`
+2.  **Setup:** `npm install`
+3.  **Run:** `npm run dev`
 
-## 📜 Skripte
-- `npm run dev`: Startet den lokalen Entwicklungsserver mit Hot Module Replacement (HMR).
-- `npm run build`: Erstellt eine optimierte Version für die Veröffentlichung (Production).
-- `npm run lint`: Prüft deinen Code auf Fehler.
+## 💡 Philosophie
+Ich lerne hier von Anfang an mit den Tools, die auch bei Firmen wie Netflix, Airbnb oder Spotify zum Einsatz kommen.
 
 ---
 *Erstellt von BlazeR | 2026*
