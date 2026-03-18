@@ -1,20 +1,24 @@
-# .gitignore - Dateien, die nicht in Git gespeichert werden sollen
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# OS-spezifische Dateien
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
-Thumbs.db
-desktop.ini
-
-# Editoren/IDEs
-.vscode/
-.idea/
-
-# Node (für später, falls wir NPM benutzen)
-node_modules/
-npm-debug.log
-yarn-error.log
-
-# Temporäre Dateien
-.cache/
-dist/
-build/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

@@ -1,16 +1,16 @@
-# Web Development Learning Journey
+# React + Vite
 
-Dieses Projekt dient dem Erlernen von Webentwicklung von den Grundlagen bis zu fortgeschrittenen Techniken.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Stack
-- HTML5
-- CSS3
-- JavaScript (ES6+)
+Currently, two official plugins are available:
 
-## Struktur
-- `src/`: Quellcode der Anwendung
-- `assets/`: Statische Dateien wie Bilder, Schriften etc.
-- `docs/`: Dokumentation und Lernnotizen
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## Lokale Entwicklung
-Einfach die `src/index.html` im Browser öffnen.
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

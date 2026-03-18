@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hier kannst du eigene Styles hinzufügen, falls nötig */
+body {
+  @apply bg-slate-50 text-slate-900 min-h-screen flex flex-col;
+}
