@@ -1,16 +1,33 @@
-# React + Vite
+# 🚀 Web Dev Learning Journey
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ein professionelles Lernprojekt zum Einstieg in die moderne Webentwicklung mit **Figma**, **React** und **Tailwind CSS**.
 
-Currently, two official plugins are available:
+## 🛠 Tech Stack
+- **Framework:** [React](https://react.dev/) (mit [Vite](https://vitejs.dev/))
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Design Tool:** [Figma](https://figma.com/)
+- **Version Control:** Git & GitHub
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📂 Projektstruktur
+- `src/` - Deine React-Komponenten und Styles.
+- `public/` - Statische Dateien (Bilder, Favicons).
+- `archive/` - Deine ersten Schritte mit reinem HTML/CSS (für die Geschichte).
 
-## React Compiler
+## 🚀 Erste Schritte
+1.  **Abhängigkeiten installieren:**
+    ```bash
+    npm install
+    ```
+2.  **Entwicklungsserver starten:**
+    ```bash
+    npm run dev
+    ```
+3.  **Seite im Browser öffnen:** Meistens unter `http://localhost:5173`.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📜 Skripte
+- `npm run dev`: Startet den lokalen Entwicklungsserver mit Hot Module Replacement (HMR).
+- `npm run build`: Erstellt eine optimierte Version für die Veröffentlichung (Production).
+- `npm run lint`: Prüft deinen Code auf Fehler.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+*Erstellt von BlazeR | 2026*
